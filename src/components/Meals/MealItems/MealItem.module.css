@@ -1,0 +1,43 @@
+img {
+  display: block;
+  margin: 15px auto;
+}
+
+.meal {
+  margin: 0 1rem;
+  display: flex;
+  direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  width: 90%;
+  padding: 0 1rem 1.5rem 1.5rem;
+  border-bottom: 1px solid #ccc;
+  text-align: center;
+}
+
+.title {
+  font-weight: 400;
+}
+
+.title p {
+  font-weight: bold;
+  text-align: center;
+  font-size: 17px;
+}
+
+.btn {
+  font: inherit;
+  border: 1px solid #8a2b06;
+  background-color: #8a2b06;
+  color: white;
+  cursor: pointer;
+  border-radius: 25px;
+  padding: 0.5rem 2rem;
+  transition: all ease-out 0.1s;
+  text-decoration: none;
+}
+
+.btn:hover,
+.btn:active {
+  background-color: #ad3a0c;
+}

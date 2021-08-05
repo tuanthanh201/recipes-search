@@ -1,0 +1,50 @@
+.meals {
+  max-width: 60rem;
+  width: 90%;
+  margin: 2rem auto;
+  animation: meals-appear 1s ease-out forwards;
+}
+
+.MealsError {
+  text-align: center;
+  color: white;
+}
+
+.meals ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: flex-start;
+  margin: 0;
+  padding: 0;
+}
+
+.meal-template {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  width: 100%;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.text-left {
+  text-align: left;
+}
+
+@keyframes meals-appear {
+  from {
+    opacity: 0;
+    transform: translateY(3rem);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
